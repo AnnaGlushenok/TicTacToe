@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cross" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/button"
+                style="@style/button"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:id="@+id/button2"
+                style="@style/button"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:id="@+id/button3"
+                style="@style/button"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/button4"
+                style="@style/button"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:id="@+id/button5"
+                style="@style/button"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:id="@+id/button6"
+                style="@style/button"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/button7"
+                style="@style/button"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:id="@+id/button8"
+                style="@style/button"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:id="@+id/button9"
+                style="@style/button"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Новая игра"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
