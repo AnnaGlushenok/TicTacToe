@@ -40,7 +40,7 @@ class UnitTest {
             )
         )
 
-        val array1 = arrayOf(Point(0, 0), Point(0, 0), Point(0, 0))
+        val array1 = arrayOfNulls<Point>(3)
         val array2 = arrayOf(Point(0, 0), Point(0, 1), Point(0, 2))
         val array3 = arrayOf(Point(1, 0), Point(1, 1), Point(1, 2))
         val array4 = arrayOf(Point(2, 0), Point(2, 1), Point(2, 2))
@@ -86,7 +86,7 @@ class UnitTest {
             )
         )
 
-        val array1 = arrayOf(Point(0, 0), Point(0, 0), Point(0, 0))
+        val array1 = arrayOfNulls<Point>(3)
         val array2 = arrayOf(Point(0, 0), Point(1, 0), Point(2, 0))
         val array3 = arrayOf(Point(0, 1), Point(1, 1), Point(2, 1))
         val array4 = arrayOf(Point(0, 2), Point(1, 2), Point(2, 2))
