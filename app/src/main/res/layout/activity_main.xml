@@ -8,6 +8,11 @@
     android:padding="8dp"
     tools:context=".MainActivity">
 
+    <nl.dionsegijn.konfetti.KonfettiView
+        android:id="@+id/konfetti"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <ImageView
         android:id="@+id/step"
         android:layout_width="wrap_content"
@@ -31,73 +36,55 @@
 
             <ImageButton
                 android:id="@+id/btn1"
-                style="@style/button"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:tag="01" />
+                style="@style/button" />
 
             <ImageButton
                 android:id="@+id/btn2"
-                style="@style/button"
-                android:layout_width="100dp"
-                android:layout_height="100dp" />
+                style="@style/button" />
 
             <ImageButton
                 android:id="@+id/btn3"
-                style="@style/button"
-                android:layout_width="100dp"
-                android:layout_height="100dp" />
+                style="@style/button" />
         </TableRow>
 
         <TableRow>
 
             <ImageButton
                 android:id="@+id/btn4"
-                style="@style/button"
-                android:layout_width="100dp"
-                android:layout_height="100dp" />
+                style="@style/button" />
 
             <ImageButton
                 android:id="@+id/btn5"
-                style="@style/button"
-                android:layout_width="100dp"
-                android:layout_height="100dp" />
+                style="@style/button" />
 
             <ImageButton
                 android:id="@+id/btn6"
-                style="@style/button"
-                android:layout_width="100dp"
-                android:layout_height="100dp" />
+                style="@style/button" />
         </TableRow>
 
         <TableRow>
 
             <ImageButton
                 android:id="@+id/btn7"
-                style="@style/button"
-                android:layout_width="100dp"
-                android:layout_height="100dp" />
+                style="@style/button" />
 
             <ImageButton
                 android:id="@+id/btn8"
-                style="@style/button"
-                android:layout_width="100dp"
-                android:layout_height="100dp" />
+                style="@style/button" />
 
             <ImageButton
                 android:id="@+id/btn9"
-                style="@style/button"
-                android:layout_width="100dp"
-                android:layout_height="100dp" />
+                style="@style/button" />
         </TableRow>
     </TableLayout>
 
     <Button
         android:id="@+id/newGameBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
         android:text="Новая игра"
         android:textAllCaps="false"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
